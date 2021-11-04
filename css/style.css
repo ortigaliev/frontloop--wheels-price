@@ -53,7 +53,7 @@ body{
   padding: 0;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   background-color: #fff;
   color: #222;
 }
@@ -79,4 +79,86 @@ CONTAINER
 .main-content{
   display: flex;
   flex-grow: 1;
+}
+.site-wrapper {
+  padding-top: 100px;
+  background-color: rgb(11, 112, 65);
+}
+.whleels-card {
+  width: 100%;
+  max-width: 600px;
+  height: 465px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  box-shadow: 0 22px 50px rgba(14,21,47, .2),
+              0 8px 20px rgba(14,21,47, .2);
+}
+
+.wheels-wrapper{
+  padding: 50px 70px;
+}
+.wheels-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wheels-header-heading {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 32px;
+  line-height: 26px;
+}
+.wheels-header-link {
+  display: inline-block;
+  padding: 12px;
+  margin-bottom: 30px;
+  border: 1px solid #333;
+  border-radius: 50%;
+}
+.wheels-header-img {
+  display: block;
+}
+.wheels-order-text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(170, 170, 173)
+}
+.wheels-name-price-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #555;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+  color: #000;
+}
+
+.wheels-name {
+
+}
+.wheels-price {
+}
+.total {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #000;
+}
+.wheels-name-total {
+}
+.wheels-price-total {
+}
+.wheels-img-box{
+  background-image: url(../img/bicycle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  content:"";
 }
